@@ -181,7 +181,7 @@ type PromotionLabelInfo struct {
 }
 
 type SecondPriceInfo struct {
-	SecondPriceType string          `json:"secondPriceType"` //双价格类型：18新人价
+	SecondPriceType int64           `json:"secondPriceType"` //双价格类型：18新人价，2plus会员价
 	SecondPrice     decimal.Decimal `json:"secondPrice"`     //价格
 }
 type ShopInfo struct {
